@@ -1,0 +1,36 @@
+# aboutVSCode
+
+# 読む前に
+VSCodeの使用者、これから使用する人に向けた記事です。ただ、コマンドなども一切使うことなくできるので、読む分には簡単でやってみようと思えます。
+ここでは、その手順の理由などは示さない。
+
+# 私事
+VSCodeに一本化しようと思って、VSCodeを持ち歩くことにした。大きなpcではg-tuneのノートpc、surface go(タブレットpc)を二つ持ち歩くのは肩などにも負担が大きい。そこで、開発環境の統合と同じ開発環境で作業のためにこの方法をやってみた。
+
+# VSCodeの各ページ
+・VSCodeのホーム
+https://code.visualstudio.com/
+・VSCodeダウンロード
+https://code.visualstudio.com/Download
+・VScodeドキュメント
+https://code.visualstudio.com/docs
+
+# 用意するもの
+・USBメモリ(ある程度の容量)
+(私は1000GBのUSBメモリを使用。16GBとかでも全然良い)
+・VSCodeを開くWindows端末
+（今回はWindows端末で紹介となるので、Macについては触れていません。）
+
+#VSCodeのダウンロードと操作
+1. https://code.visualstudio.com/Downloadから、`.zip 64bit 32bit`を選択して、ファイルをダウンロード（勝手にダウンロードファイルに入る。）
+<img width="886" alt="VSCodeDownload.png" src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/533115/6e0d006c-d974-0dee-6801-4bf09e6dbf71.png">
+
+2. .zipを解凍(展開)して、USBメモリに入れる。
+
+3. `USBドライブ()/VSCode-win32-x64-1.45.1/`
+の中にいろいろ入っていると思うが、ここに新たに***"data"***というファイル名を持つファイルを作成する。
+
+4. VSCodeのマークのついてるアプリケーションを起動する。
+5. そのまま一回終了して、dataの中身を確認。すると、いろいろ入っている。
+
+これで***ポータブルVSCode***の完成。
